@@ -3,7 +3,7 @@ title: "Actuator"
 tagline: "The modern mobile experience you've been waiting for"
 description: "Actuator is a sleek, intuitive mobile app built to streamline your daily tasks, boost productivity, and keep you in sync wherever you go."
 url: "https://theanilpaudel.github.io"
-baseurl: "" # Set to "/actuator.github.io" if deploying to a project page without a custom domain
+baseurl: "/actuator.github.io" # Set to "/actuator.github.io" if deploying to a project page without a custom domain
 
 # App Store & Play Store Links
 app_store_url: "https://apps.apple.com/app/id123456789"
