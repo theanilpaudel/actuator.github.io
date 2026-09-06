@@ -1,0 +1,39 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+{% assign page_title = page.title %}
+{% if page_title %}
+  <title>{{ page_title }} | {{ site.title }}</title>
+{% else %}
+  <title>{{ site.title }} - {{ site.tagline }}</title>
+{% endif %}
+
+<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="author" content="{{ site.copyright_name }}">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta property="og:site_name" content="{{ site.title }}">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }} - {{ site.tagline }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+{% if site.app_icon %}
+  <link rel="icon" type="image/png" href="{{ site.app_icon | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ site.app_icon | relative_url }}">
+  <meta property="og:image" content="{{ site.app_icon | absolute_url }}">
+{% endif %}
+
+<!-- Main CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">

@@ -1,0 +1,45 @@
+<header class="site-header">
+  <div class="header-container container">
+    <a href="{{ '/' | relative_url }}" class="brand-logo" aria-label="{{ site.title }} Home">
+      <div class="brand-icon">
+        {% if site.app_icon %}
+          <img src="{{ site.app_icon | relative_url }}" alt="{{ site.title }}" class="brand-img">
+        {% else %}
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polygon points="10 8 16 12 10 16 10 8"></polygon>
+          </svg>
+        {% endif %}
+      </div>
+      <span class="brand-name">{{ site.title }}</span>
+    </a>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main Navigation">
+      <ul class="nav-links">
+        {% for item in site.navigation %}
+          <li>
+            {% if item.url contains '#' %}
+              {% if page.url == '/' %}
+                <a href="{{ item.url }}" class="nav-link">{{ item.title }}</a>
+              {% else %}
+                <a href="{{ '/' | relative_url }}{{ item.url }}" class="nav-link">{{ item.title }}</a>
+              {% endif %}
+            {% else %}
+              <a href="{{ item.url | relative_url }}" class="nav-link {% if page.url == item.url or page.url == item.url | append: '/' %}active{% endif %}">{{ item.title }}</a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <div class="header-cta">
+        <a href="#download" class="btn btn-primary btn-sm">Get the App</a>
+      </div>
+    </nav>
+
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </div>
+</header>

@@ -1,0 +1,23 @@
+- id: "dashboard"
+  title: "Dashboard & Insights"
+  caption: "Track your goals, productivity stats, and key milestones in one unified view."
+  image: "" # Set to e.g. "/assets/images/screenshot-1.png"
+  accent: "linear-gradient(135deg, #6366f1 0%, #a855f7 100%)"
+
+- id: "tasks"
+  title: "Intelligent Workflows"
+  caption: "Organize actions with smart tagging, natural language inputs, and prioritized timelines."
+  image: "" # Set to e.g. "/assets/images/screenshot-2.png"
+  accent: "linear-gradient(135deg, #0ea5e9 0%, #3b82f6 100%)"
+
+- id: "sync"
+  title: "Instant Multi-Device Sync"
+  caption: "Seamlessly transition from phone to tablet without losing your flow."
+  image: "" # Set to e.g. "/assets/images/screenshot-3.png"
+  accent: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)"
+
+- id: "security"
+  title: "Privacy & Protection"
+  caption: "Granular privacy settings, biometric lock (Face ID/Fingerprint), and encrypted backups."
+  image: "" # Set to e.g. "/assets/images/screenshot-4.png"
+  accent: "linear-gradient(135deg, #f59e0b 0%, #ef4444 100%)"

@@ -1,0 +1,29 @@
+- title: "Lightning-Fast Performance"
+  description: "Engineered with native components for instantaneous responsiveness, smooth 120fps animations, and zero lag."
+  icon: "zap"
+  badge: "Speed"
+
+- title: "End-to-End Encryption"
+  description: "Your personal data and synced files stay exclusively yours with industry-leading client-side cryptographic security."
+  icon: "shield"
+  badge: "Security"
+
+- title: "Seamless Cloud Sync"
+  description: "Real-time synchronization across iPhone, iPad, and Android devices so your tasks and notes are always up to date."
+  icon: "cloud"
+  badge: "Sync"
+
+- title: "Intelligent Automation"
+  description: "Set smart workflows, automatic reminders, and trigger actions tailored to your daily schedule and habits."
+  icon: "cpu"
+  badge: "AI Powered"
+
+- title: "Offline First"
+  description: "Keep working without missing a beat even without internet. Changes sync seamlessly as soon as you are reconnected."
+  icon: "wifi-off"
+  badge: "Reliable"
+
+- title: "Intuitive & Minimalist"
+  description: "A distraction-free interface crafted following modern iOS and Material You guidelines with full dark mode support."
+  icon: "layout"
+  badge: "Design"

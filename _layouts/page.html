@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<article class="legal-page">
+  <div class="legal-header">
+    <div class="container container-narrow">
+      <div class="legal-badge">Legal & Policy</div>
+      <h1 class="legal-title">{{ page.title }}</h1>
+      {% if page.last_updated %}
+        <p class="legal-updated">Last updated: {{ page.last_updated }}</p>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class="container container-narrow">
+    <div class="legal-content markdown-body">
+      {{ content }}
+    </div>
+
+    <div class="legal-footer-nav">
+      <a href="{{ '/' | relative_url }}" class="back-link">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="19" y1="12" x2="5" y2="12"></line>
+          <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        Return to Home
+      </a>
+      <div class="legal-quick-links">
+        <span>Also see:</span>
+        <a href="{{ '/privacy' | relative_url }}">Privacy Policy</a>
+        <span class="sep">•</span>
+        <a href="{{ '/terms' | relative_url }}">Terms of Service</a>
+        <span class="sep">•</span>
+        <a href="{{ '/support' | relative_url }}">Support</a>
+      </div>
+    </div>
+  </div>
+</article>

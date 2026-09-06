@@ -1,0 +1,17 @@
+- question: "Is Actuator free to download?"
+  answer: "Yes! Actuator is free to download on both the Apple App Store and Google Play Store. We offer a comprehensive free tier with essential tools, alongside an optional Pro subscription for advanced power features."
+
+- question: "Which mobile operating systems are supported?"
+  answer: "Actuator is optimized for iOS 16.0 or later (iPhone and iPad) and Android 10.0 or later. We take advantage of modern platform features like widgets, Dynamic Island, and Material You dynamic theming."
+
+- question: "Can I sync my data between an iPhone and an Android phone?"
+  answer: "Absolutely. Once you create your Actuator account, your data syncs securely and immediately across all your active devices regardless of whether they run iOS or Android."
+
+- question: "How safe and private is my information?"
+  answer: "We treat your privacy with highest priority. All personal information and sync payloads are encrypted in transit and at rest using AES-256 and TLS 1.3. We never sell your personal data to advertisers. Please review our Privacy Policy for full details."
+
+- question: "Can I use the app offline?"
+  answer: "Yes! Actuator features a local-first database architecture. You can view, create, and edit content while offline. Any offline modifications will automatically reconcile the next time you connect to the internet."
+
+- question: "How do I request support or suggest a new feature?"
+  answer: "You can reach out directly via our in-app feedback tool or by emailing support@actuator.app. Our engineering and support team reviews every request."

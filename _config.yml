@@ -1,0 +1,60 @@
+# Site Settings
+title: "Actuator"
+tagline: "The modern mobile experience you've been waiting for"
+description: "Actuator is a sleek, intuitive mobile app built to streamline your daily tasks, boost productivity, and keep you in sync wherever you go."
+url: "https://theanilpaudel.github.io"
+baseurl: "" # Set to "/actuator.github.io" if deploying to a project page without a custom domain
+
+# App Store & Play Store Links
+app_store_url: "https://apps.apple.com/app/id123456789"
+google_play_url: "https://play.google.com/store/apps/details?id=com.actuator.app"
+
+# App Metadata
+app_rating: "4.9"
+app_reviews_count: "10K+"
+app_version: "1.1.0"
+support_email: "paudelanil@yahoo.com"
+copyright_name: "Anil Paudel"
+
+# Images (Place PNG files in assets/images/)
+app_icon: "/assets/images/ic_launcher-playstore.png"           # App logo / icon (Square PNG, e.g. 512x512)
+hero_screenshot: "/assets/images/sc_1.png"                          # e.g. "/assets/images/hero-screenshot.png" (Optional mockup screen)
+
+# Social Links (optional)
+social:
+  twitter: "https://twitter.com/theanilpaudel"
+  github: "https://github.com/theanilpaudel/actuator.github.io"
+
+
+# Navigation Links
+navigation:
+  - title: "Features"
+    url: "#features"
+  - title: "Screenshots"
+    url: "#screenshots"
+  - title: "FAQ"
+    url: "#faq"
+  - title: "Privacy"
+    url: "/privacy"
+  - title: "Terms"
+    url: "/terms"
+  - title: "Support"
+    url: "/support"
+
+# Build Settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
