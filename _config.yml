@@ -1,7 +1,7 @@
 # Site Settings
 title: "Actuator"
-tagline: "The modern mobile experience you've been waiting for"
-description: "Actuator is a sleek, intuitive mobile app built to streamline your daily tasks, boost productivity, and keep you in sync wherever you go."
+tagline: "Manage and Monitor Spring Boot projects in real-time."
+description: "Monitor application health, view real-time metrics, inspect environment properties, track HTTP traces, and manage log levels effortlessly—anytime, anywhere."
 url: "https://theanilpaudel.github.io"
 baseurl: "/actuator.github.io" # Set to "/actuator.github.io" if deploying to a project page without a custom domain
 

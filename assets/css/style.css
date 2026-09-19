@@ -207,17 +207,45 @@ h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
 }
 
+/* ==========================================================================
+   Compact Badges (Footer Specific Overrides)
+   ========================================================================== */
+.footer-badges {
+  width: 100%; /* Ensure footer container expands */
+}
+
+/* Force container into side-by-side equal columns */
+.store-badges.badges-compact,
+.badges-compact {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  gap: 0.5rem !important;
+  width: 100% !important;
+  max-width: 320px; /* Adjust or remove if you want them wider */
+}
+
 .badges-compact .store-badge {
-  padding: 0.5rem 1rem;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  padding: 0.5rem 0.5rem !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  white-space: nowrap !important;
 }
 
 .badges-compact .badge-icon {
-  width: 22px;
-  height: 22px;
+  width: 20px !important;
+  height: 20px !important;
+  flex-shrink: 0 !important;
 }
 
 .badges-compact .badge-title {
-  font-size: 0.95rem;
+  font-size: 0.85rem !important;
+}
+
+.badges-compact .badge-subtitle {
+  font-size: 0.55rem !important;
 }
 
 /* ==========================================================================

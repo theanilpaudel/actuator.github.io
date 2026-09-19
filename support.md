@@ -15,7 +15,6 @@ If you need direct assistance from our engineering or customer support team, ple
 
 > **Support Email:** [{{ site.support_email }}](mailto:{{ site.support_email }})  
 > **Response Time:** Typically within 24 to 48 business hours.  
-> **Office Hours:** Monday – Friday, 9:00 AM – 6:00 PM (UTC)
 
 When contacting support, please include:
 1. Your device model (e.g., iPhone 15 Pro, Samsung Galaxy S24).
@@ -44,13 +43,11 @@ Make sure you are running the latest version of the app. Updates include critica
 ### 4. Account & Data Deletion
 In compliance with Apple and Google data privacy requirements, you can permanently delete your account and all associated data directly from within the app:
 1. Open the {{ site.title }} app.
-2. Tap **Settings > Account & Security > Delete Account**.
-3. Confirm deletion. All cloud backups and profile details will be permanently removed within 30 days.
-
-You can also submit an account deletion request by emailing [{{ site.support_email }}](mailto:{{ site.support_email }}) with the subject line *"Account Deletion Request"*.
+2. Long press on any of the Instance **Click on Delete Icon**.
+3. We don't store them remotely so all data will be deleted immediately from your device.
 
 ---
 
 ## 💡 Frequently Asked Questions
 
-Looking for quick answers? Check out our interactive [FAQ Section]({{ '/' | relative_url }}#faq) on the home page for details about platform compatibility, offline mode, and pricing.
+Looking for quick answers? Check out our interactive [FAQ Section]({{ '/' | relative_url }}#faq) on the home page for details about platform compatibility, features, and pricing.
