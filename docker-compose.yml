@@ -1,0 +1,9 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:4
+    container_name: actuator-site
+    volumes:
+      - .:/srv/jekyll
+    ports:
+      - "4000:4000"
+    command: jekyll serve --host 0.0.0.0 --livereload --force_polling

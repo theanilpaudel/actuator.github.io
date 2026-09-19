@@ -6,7 +6,7 @@ url: "https://theanilpaudel.github.io"
 baseurl: "/actuator.github.io" # Set to "/actuator.github.io" if deploying to a project page without a custom domain
 
 # App Store & Play Store Links
-app_store_url: "https://apps.apple.com/app/id123456789"
+app_store_url: "https://apps.apple.com/us/app/actuator-spring-boot-monitor/id6809104779"
 google_play_url: "https://play.google.com/store/apps/details?id=com.actuator.app"
 
 # App Metadata
